@@ -1,0 +1,20 @@
+{
+  "name": "eu4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test-cov": "node --experimental-vm-modules node_modules/jest/bin/jest.js --collectCoverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "dedent-js": "^1.0.1",
+    "tga": "^1.0.4"
+  }
+}
